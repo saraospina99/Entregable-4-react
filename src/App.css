@@ -1,0 +1,194 @@
+/* App */
+.App {
+  min-height: 100vh;
+}
+
+.app__header {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+  margin-top: 3rem;
+  gap: 44rem;
+}
+
+.app__title {
+  color: rosybrown;
+  font-weight: bolder;
+  font-size: 2rem;
+}
+
+.app__card {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+/* Modal */
+
+.app__form {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(1.3px);
+  transform: scale(0);
+  transition: 200ms ease;
+}
+
+.app__form-visible {
+  transform: scale(1);
+}
+
+.app__btn {
+  width: 90px;
+  padding: 0.6em;
+  background-color: rosybrown;
+  color: white;
+  cursor: pointer;
+  border-radius: 1.5em;
+  transition: transform 150ms ease;
+}
+
+.app__btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 0.3em #0003;
+  background-color: rgb(150, 110, 110);
+}
+
+/* Formulario */
+
+.Form {
+  padding: 1.2em;
+  width: 100%;
+  max-width: 350px;
+  background-color: rgb(250, 241, 234);
+  height: max-content;
+  border-radius: 0.6em;
+  position: relative;
+}
+
+.form__x {
+  position: absolute;
+  right: 1em;
+  top: 0.4em;
+  font-size: 1.4rem;
+  color: rosybrown;
+  cursor: pointer;
+  transition: transform 100ms ease;
+}
+
+.form__x:hover {
+  transform: scale(1.2);
+  color: rgb(150, 110, 110);
+}
+
+.form__title {
+  font-size: 1.5rem;
+  margin-bottom: 0.6em;
+  color: rosybrown;
+  font-weight: 700;
+  text-align: center;
+}
+
+.form__item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3em;
+  margin-bottom: 0.8em;
+}
+
+.form__label {
+  color: rosybrown;
+  padding-left: 1em;
+  font-weight: 200;
+}
+
+.form__input {
+  padding: 0.4em 0.8em;
+  font-family: inherit;
+}
+
+.form__btn {
+  width: 80px;
+  padding: 0.6em;
+  background-color: rosybrown;
+  color: white;
+  cursor: pointer;
+  border-radius: 1.5em;
+  transition: transform 150ms ease;
+}
+
+.form__btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 0.3em #0003;
+  background-color: rgb(150, 110, 110);
+}
+
+/* User Card*/
+
+.User__Card {
+  width: 300px;
+  background-color: white;
+  padding: 1.2em;
+  border-radius: 0.5em;
+  box-shadow: 5px 6px 5px 0px #0003;
+  border: 0.1em solid rosybrown;
+}
+
+.card__info {
+  display: flex;
+  flex-direction: column;
+}
+
+.card__name {
+  font-size: 1.3rem;
+  color: rgb(161, 117, 117);
+  margin-bottom: 0.5em;
+}
+
+.card__list {
+  padding: 0;
+  min-height: 80px;
+}
+
+.card__item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2em;
+  margin-bottom: 1.2em;
+  font-weight: 600;
+}
+
+.card__span {
+  font-weight: 200;
+}
+
+.card__btn {
+  display: inline-flex;
+  margin-left: auto;
+  gap: 0.5em;
+}
+
+.card__btn-icon {
+  background-color: rosybrown;
+  color: white;
+  cursor: pointer;
+  aspect-ratio: 1;
+  border-radius: 0.4em;
+  font-size: 0.7rem;
+  transition: transform 150ms ease;
+}
+
+.card__btn-icon:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 0.3em #0003;
+  background-color: rgb(150, 110, 110);
+}
