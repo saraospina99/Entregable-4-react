@@ -30,8 +30,8 @@ const UserCard = ({ user, deleUserById, setUpdateInfo, handleOpen }) => {
 
             <div className='card__btn'>
                 <i class="fa-solid fa-trash-can"></i>
-                <button onClick={handleDelete} className='card__btn-icon'><i class="bi bi-trash3-fill"></i></button>
-                <button onClick={handleUpdate} className='card__btn-icon'><i class="bi bi-pencil-square"></i></button>
+                <button onClick={handleDelete} className='card__btn-icon'><i className='bi bi-trash3-fill'></i></button>
+                <button onClick={handleUpdate} className='card__btn-icon'><i className='bi bi-pencil-square'></i></button>
                 
             </div>
         </article>

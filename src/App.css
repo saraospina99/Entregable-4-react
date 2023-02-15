@@ -4,11 +4,13 @@
 }
 
 .app__header {
-  display: flex;
+  min-width: 100%;
+  display: inline-flex;
   justify-content: center;
+  align-items: center;
   margin-bottom: 2rem;
   margin-top: 3rem;
-  gap: 44rem;
+  gap: 50rem;
 }
 
 .app__title {
@@ -25,6 +27,7 @@
   align-items: center;
   gap: 2.5rem;
 }
+
 
 /* Modal */
 
@@ -61,6 +64,22 @@
   transform: scale(1.1);
   box-shadow: 0 0 0.3em #0003;
   background-color: rgb(150, 110, 110);
+}
+
+/*/--------------------------------------/*/
+
+@media (max-width: 947px) {
+  .app__header {
+    gap: 30rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .app__header {
+    width: 30%;
+    padding: 0px 0px 0px 5px;
+    gap: 20rem;
+  }
 }
 
 /* Formulario */
@@ -192,3 +211,5 @@
   box-shadow: 0 0 0.3em #0003;
   background-color: rgb(150, 110, 110);
 }
+
+

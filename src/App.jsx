@@ -59,12 +59,6 @@ function App() {
   const handleClose = ()  => setIsOpen(false) //modal
 
 
-  // Alerts Buttons
-
-
-
-
-
   return (
     <div className="App">
 
